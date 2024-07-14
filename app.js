@@ -19,10 +19,6 @@ app.post("/app",(req,res)=>{
     console.log(req.body);
 });
 
-app.get("/app/service",(req,res)=>{
-    res.render("service.ejs");
-});
-
 
 app.listen(8080,()=>{
     console.log("server is listening to port 8080");
